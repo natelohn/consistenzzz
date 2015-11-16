@@ -10,8 +10,6 @@
 
 @interface ViewController ()
 
-@property (strong, nonatomic) NSArray *desiredSleepArray;
-
 @end
 
 @implementation ViewController
@@ -26,9 +24,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)buttonPressed:(id)sender {
-    NSString *desiredSleepString = [ _desiredSleepArray objectAtIndex:[ _desiredSleepPicker selectedRowInComponent:0]];
-    
-    _picked.text = desiredSleepString;
-}
 @end
