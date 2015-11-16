@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController < UIPickerViewDelegate, UIPickerViewDataSource >
+@property (strong, nonatomic) IBOutlet UIPickerView *desiredSleepPicker;
+- (IBAction)buttonPressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *picked;
 
 @end
 
