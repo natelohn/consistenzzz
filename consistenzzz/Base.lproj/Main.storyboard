@@ -74,24 +74,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Want = x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcN-6K-eZU">
-                                <rect key="frame" x="164" y="555" width="242" height="44"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Debt = f(x,y)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7GP-pz-AJB">
-                                <rect key="frame" x="164" y="658" width="242" height="44"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Actual = y" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJt-C8-w1r">
-                                <rect key="frame" x="165" y="607" width="242" height="43"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pf-z4-UOT">
                                 <rect key="frame" x="20" y="600" width="137" height="91"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -166,10 +148,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="TestButton" destination="8pf-z4-UOT" id="xdP-bb-qL8"/>
-                        <outlet property="testActual" destination="FJt-C8-w1r" id="48o-kS-Jaf"/>
                         <outlet property="testButton" destination="8pf-z4-UOT" id="Hpw-NV-t4I"/>
-                        <outlet property="testSleepDebt" destination="7GP-pz-AJB" id="JJb-1u-5Kv"/>
-                        <outlet property="testWant" destination="LcN-6K-eZU" id="RXl-ES-wFc"/>
                         <outlet property="wantHourSelector" destination="hch-d0-qcq" id="7JQ-we-xSU"/>
                     </connections>
                 </viewController>

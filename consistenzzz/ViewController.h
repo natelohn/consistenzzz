@@ -13,9 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *testButton;
 - (IBAction)testButtonAction:(id)sender;
-@property (weak, nonatomic) IBOutlet UILabel *testWant;
-@property (weak, nonatomic) IBOutlet UILabel *testActual;
-@property (weak, nonatomic) IBOutlet UILabel *testSleepDebt;
+
 
 @end
 
