@@ -74,14 +74,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pf-z4-UOT">
-                                <rect key="frame" x="20" y="600" width="137" height="91"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Press Me!"/>
-                                <connections>
-                                    <action selector="testButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u4O-iY-JJz"/>
-                                </connections>
-                            </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="XGy-h6-q0X">
                                 <rect key="frame" x="20" y="310" width="374" height="29"/>
                                 <segments>
@@ -126,30 +118,43 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="vUF-D4-bHQ">
-                                <rect key="frame" x="95" y="346" width="225" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xMZ-3B-DOk">
+                                <rect key="frame" x="59" y="182" width="301" height="29"/>
                                 <segments>
+                                    <segment title="0 min"/>
                                     <segment title="15 min"/>
                                     <segment title="30 min"/>
                                     <segment title="45 min"/>
                                 </segments>
                             </segmentedControl>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="xMZ-3B-DOk">
-                                <rect key="frame" x="95" y="182" width="225" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lhH-kb-HWh">
+                                <rect key="frame" x="59" y="346" width="301" height="29"/>
                                 <segments>
+                                    <segment title="0 min"/>
                                     <segment title="15 min"/>
                                     <segment title="30 min"/>
                                     <segment title="45 min"/>
                                 </segments>
                             </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pf-z4-UOT">
+                                <rect key="frame" x="138" y="500" width="137" height="91"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Press Me!"/>
+                                <connections>
+                                    <action selector="testButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u4O-iY-JJz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="TestButton" destination="8pf-z4-UOT" id="xdP-bb-qL8"/>
+                        <outlet property="getHourSelector" destination="XGy-h6-q0X" id="F6O-cX-KGu"/>
+                        <outlet property="getMinSelector" destination="lhH-kb-HWh" id="lP0-os-QrU"/>
                         <outlet property="testButton" destination="8pf-z4-UOT" id="Hpw-NV-t4I"/>
                         <outlet property="wantHourSelector" destination="hch-d0-qcq" id="7JQ-we-xSU"/>
+                        <outlet property="wantMinSelector" destination="xMZ-3B-DOk" id="aTH-IO-rks"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

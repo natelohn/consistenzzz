@@ -26,7 +26,7 @@
 
 - (IBAction)testButtonAction:(id)sender {
     float want = 6 + self.wantHourSelector.selectedSegmentIndex;
-    NSLog(@"want index = %ld", self.wantHourSelector.selectedSegmentIndex);
     NSLog(@"want = %f", want);
+    
 }
 @end
