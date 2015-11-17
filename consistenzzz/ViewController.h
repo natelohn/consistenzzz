@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIView *picker;
 
+@property (weak, nonatomic) IBOutlet UIButton *testButton;
+- (IBAction)testButtonAction:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *testWant;
+@property (weak, nonatomic) IBOutlet UILabel *testActual;
+@property (weak, nonatomic) IBOutlet UILabel *testSleepDebt;
 
 @end
 

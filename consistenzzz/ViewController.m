@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)testButtonAction:(id)sender {
+    self.testWant.text =@"Want = Pressed";
+    self.testActual.text =@"Want = Pressed";
+    self.testSleepDebt.text =@"Want = Pressed";
+}
 @end
