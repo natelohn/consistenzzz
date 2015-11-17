@@ -2,7 +2,7 @@
 //  ViewController.m
 //  consistenzzz
 //
-//  Created by Nate Lohn on 11/15/15.
+//  Created by Nate Lohn on 11/15/15.NS
 //  Copyright © 2015 Nate Lohn. All rights reserved.
 //
 
@@ -26,6 +26,9 @@
 
 - (IBAction)testButtonAction:(id)sender {
     NSString *wantString = [self.wantHourSelector titleForSegmentAtIndex:self.wantHourSelector.selectedSegmentIndex];
+    float want = 6 + self.wantHourSelector.selectedSegmentIndex;
+    NSLog(@"want index = %ld", self.wantHourSelector.selectedSegmentIndex);
+    NSLog(@"want = %f", want);
     self.testWant.text = wantString;
     self.testActual.text =@"Want = Pressed";
     self.testSleepDebt.text =@"Want = Pressed";
