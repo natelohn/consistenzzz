@@ -170,6 +170,7 @@
                         <outlet property="testButton" destination="8pf-z4-UOT" id="Hpw-NV-t4I"/>
                         <outlet property="testSleepDebt" destination="7GP-pz-AJB" id="JJb-1u-5Kv"/>
                         <outlet property="testWant" destination="LcN-6K-eZU" id="RXl-ES-wFc"/>
+                        <outlet property="wantHourSelector" destination="hch-d0-qcq" id="7JQ-we-xSU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

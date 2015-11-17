@@ -25,7 +25,8 @@
 }
 
 - (IBAction)testButtonAction:(id)sender {
-    self.testWant.text =@"Want = Pressed";
+    NSString *wantString = [self.wantHourSelector titleForSegmentAtIndex:self.wantHourSelector.selectedSegmentIndex];
+    self.testWant.text = wantString;
     self.testActual.text =@"Want = Pressed";
     self.testSleepDebt.text =@"Want = Pressed";
 }
