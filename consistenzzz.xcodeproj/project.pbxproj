@@ -13,7 +13,6 @@
 		465C0D0C1BF9755E009C706B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465C0D0A1BF9755E009C706B /* Main.storyboard */; };
 		465C0D0F1BF9755E009C706B /* consistenzzz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 465C0D0D1BF9755E009C706B /* consistenzzz.xcdatamodeld */; };
 		465C0D111BF9755E009C706B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465C0D101BF9755E009C706B /* Assets.xcassets */; };
-		465C0D141BF9755E009C706B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465C0D121BF9755E009C706B /* LaunchScreen.storyboard */; };
 		465C0D1F1BF9755E009C706B /* consistenzzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 465C0D1E1BF9755E009C706B /* consistenzzzTests.m */; };
 		465C0D2A1BF9755E009C706B /* consistenzzzUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 465C0D291BF9755E009C706B /* consistenzzzUITests.m */; };
 /* End PBXBuildFile section */
@@ -45,7 +44,6 @@
 		465C0D0B1BF9755E009C706B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		465C0D0E1BF9755E009C706B /* consistenzzz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = consistenzzz.xcdatamodel; sourceTree = "<group>"; };
 		465C0D101BF9755E009C706B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		465C0D131BF9755E009C706B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		465C0D151BF9755E009C706B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		465C0D1A1BF9755E009C706B /* consistenzzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = consistenzzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		465C0D1E1BF9755E009C706B /* consistenzzzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = consistenzzzTests.m; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 				465C0D081BF9755E009C706B /* ViewController.m */,
 				465C0D0A1BF9755E009C706B /* Main.storyboard */,
 				465C0D101BF9755E009C706B /* Assets.xcassets */,
-				465C0D121BF9755E009C706B /* LaunchScreen.storyboard */,
 				465C0D151BF9755E009C706B /* Info.plist */,
 				465C0D0D1BF9755E009C706B /* consistenzzz.xcdatamodeld */,
 				465C0D011BF9755E009C706B /* Supporting Files */,
@@ -246,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				465C0D141BF9755E009C706B /* LaunchScreen.storyboard in Resources */,
 				465C0D111BF9755E009C706B /* Assets.xcassets in Resources */,
 				465C0D0C1BF9755E009C706B /* Main.storyboard in Resources */,
 			);
@@ -318,14 +314,6 @@
 				465C0D0B1BF9755E009C706B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		465C0D121BF9755E009C706B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				465C0D131BF9755E009C706B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -418,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = consistenzzz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lateNohn.consistenzzz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = consistenzzz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lateNohn.consistenzzz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,6 +430,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = consistenzzzTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lateNohn.consistenzzzTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,6 +443,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = consistenzzzTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lateNohn.consistenzzzTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = consistenzzzUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lateNohn.consistenzzzUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -475,6 +468,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = consistenzzzUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lateNohn.consistenzzzUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +496,7 @@
 				465C0D301BF9755E009C706B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		465C0D311BF9755E009C706B /* Build configuration list for PBXNativeTarget "consistenzzzTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +505,7 @@
 				465C0D331BF9755E009C706B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		465C0D341BF9755E009C706B /* Build configuration list for PBXNativeTarget "consistenzzzUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +514,7 @@
 				465C0D361BF9755E009C706B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
