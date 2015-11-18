@@ -24,4 +24,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)testButtonAction:(id)sender {
+    float want = 6 + self.wantHourSelector.selectedSegmentIndex + (.25 * self.wantMinSelector.selectedSegmentIndex);
+    float get = 6 + self.getHourSelector.selectedSegmentIndex + (.25 * self.getMinSelector.selectedSegmentIndex);
+    float debt = 7 * (get - ((24 - get) * (want/(24 - want))));
+    NSLog(@"want = %f", want);
+    NSLog(@"get = %f", get);
+    NSLog(@"debt = %f", debt);
+}
 @end
