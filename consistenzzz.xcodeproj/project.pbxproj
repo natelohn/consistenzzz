@@ -11,7 +11,6 @@
 		465C0D061BF9755E009C706B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465C0D051BF9755E009C706B /* AppDelegate.m */; };
 		465C0D091BF9755E009C706B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465C0D081BF9755E009C706B /* ViewController.m */; };
 		465C0D0C1BF9755E009C706B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465C0D0A1BF9755E009C706B /* Main.storyboard */; };
-		465C0D0F1BF9755E009C706B /* consistenzzz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 465C0D0D1BF9755E009C706B /* consistenzzz.xcdatamodeld */; };
 		465C0D111BF9755E009C706B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465C0D101BF9755E009C706B /* Assets.xcassets */; };
 		465C0D1F1BF9755E009C706B /* consistenzzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 465C0D1E1BF9755E009C706B /* consistenzzzTests.m */; };
 		465C0D2A1BF9755E009C706B /* consistenzzzUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 465C0D291BF9755E009C706B /* consistenzzzUITests.m */; };
@@ -270,7 +269,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				465C0D091BF9755E009C706B /* ViewController.m in Sources */,
-				465C0D0F1BF9755E009C706B /* consistenzzz.xcdatamodeld in Sources */,
 				465C0D061BF9755E009C706B /* AppDelegate.m in Sources */,
 				465C0D031BF9755E009C706B /* main.m in Sources */,
 			);

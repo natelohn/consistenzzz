@@ -10,7 +10,13 @@
 
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIView *picker;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *wantHourSelector;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *wantMinSelector;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *getHourSelector;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *getMinSelector;
 
+@property (weak, nonatomic) IBOutlet UIButton *testButton;
+- (IBAction)testButtonAction:(id)sender;
 
 @end
 
