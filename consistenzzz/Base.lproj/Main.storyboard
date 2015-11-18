@@ -234,6 +234,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Quj-Gj-yuD">
                                 <rect key="frame" x="138" y="500" width="137" height="91"/>
                                 <animations/>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Press Me!"/>
                                 <connections>
